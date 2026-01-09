@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Observer } from "gsap/Observer";
+import { Observer } from "gsap/observer";
 import SectionWrapper from "../layout/SectionWrapper";
 import preview from "../../assets/preview.jpeg";
 
