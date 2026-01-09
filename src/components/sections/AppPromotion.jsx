@@ -7,7 +7,7 @@ import preview from "../../assets/preview.jpeg";
 
 gsap.registerPlugin(ScrollTrigger, Observer);
 
-function AppPromoSection() {
+function AppPromotion() {
   const sectionRef = useRef(null);
   const textRef = useRef(null);
   const imageRef = useRef(null);
@@ -147,4 +147,4 @@ function AppPromoSection() {
   );
 }
 
-export default AppPromoSection;
+export default AppPromotion;
